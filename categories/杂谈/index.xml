@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - HebeHan&#39;s Blog</title>
-        <link>http://hebehan.com/posts/</link>
-        <description>所有文章 | HebeHan&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 May 2020 04:52:51 &#43;0800</lastBuildDate><atom:link href="http://hebehan.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>杂谈 - 分类 - HebeHan&#39;s Blog</title>
+        <link>http://hebehan.com/categories/%E6%9D%82%E8%B0%88/</link>
+        <description>杂谈 - 分类 - HebeHan&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 May 2020 04:52:51 &#43;0800</lastBuildDate><atom:link href="http://hebehan.com/categories/%E6%9D%82%E8%B0%88/" rel="self" type="application/rss+xml" /><item>
     <title>Hugo常用命令</title>
     <link>http://hebehan.com/hugocommand/</link>
     <pubDate>Fri, 22 May 2020 04:52:51 &#43;0800</pubDate>
