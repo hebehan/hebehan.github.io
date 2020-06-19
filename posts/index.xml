@@ -9,7 +9,7 @@
     <pubDate>Fri, 19 Jun 2020 16:13:23 &#43;0800</pubDate>
     <author>作者</author>
     <guid>http://hebehan.com/mysqlcommand/</guid>
-    <description><![CDATA[登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库 1 create database 数据库名称; 显示现有数据库 1 show databases; 使用某个数据库]]></description>
+    <description><![CDATA[登录 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库 1 create database 数据库名称; 显示现有数据库 1 show databases; 显示建库语句 1 show create database 数]]></description>
 </item><item>
     <title>Hugo常用命令</title>
     <link>http://hebehan.com/hugocommand/</link>
