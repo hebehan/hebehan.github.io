@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mysql - 分类 - HebeHan&#39;s Blog</title>
+        <link>http://hebehan.com/categories/mysql/</link>
+        <description>mysql - 分类 - HebeHan&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 19 Jun 2020 16:13:23 &#43;0800</lastBuildDate><atom:link href="http://hebehan.com/categories/mysql/" rel="self" type="application/rss+xml" /><item>
+    <title>Mysql 常用命令</title>
+    <link>http://hebehan.com/mysqlcommand/</link>
+    <pubDate>Fri, 19 Jun 2020 16:13:23 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://hebehan.com/mysqlcommand/</guid>
+    <description><![CDATA[登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库{创建数据库} 1 create database 数据库名称; 显示现有数据库{显示]]></description>
+</item></channel>
+</rss>
