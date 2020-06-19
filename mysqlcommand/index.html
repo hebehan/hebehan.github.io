@@ -6,7 +6,7 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Mysql 常用命令 - HebeHan&#39;s Blog</title><meta name="Description" content="HebeHan&#39;s Blog"><meta property="og:title" content="Mysql 常用命令" />
-<meta property="og:description" content="登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库{创建数据库} 1 create database 数据库名称; 显示现有数据库{显示" />
+<meta property="og:description" content="登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库 1 create database 数据库名称; 显示现有数据库 1 show databases; 使用某个数据库" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://hebehan.com/mysqlcommand/" />
 <meta property="og:image" content="http://hebehan.com/logo.png"/>
@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="http://hebehan.com/logo.png"/>
 
 <meta name="twitter:title" content="Mysql 常用命令"/>
-<meta name="twitter:description" content="登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库{创建数据库} 1 create database 数据库名称; 显示现有数据库{显示"/>
+<meta name="twitter:description" content="登录{登录} 1 2 3 4 mysql -u root -p密码(不推荐) mysql -u root -p回车后输入密码 数据库相关 创建数据库 1 create database 数据库名称; 显示现有数据库 1 show databases; 使用某个数据库"/>
 <meta name="application-name" content="LoveIt">
 <meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/hebehan.com\/mysqlcommand\/"
-        },"genre": "posts","keywords": "mysql, 常用命令","wordcount":  128 ,
+        },"genre": "posts","keywords": "mysql, 常用命令","wordcount":  94 ,
         "url": "http:\/\/hebehan.com\/mysqlcommand\/","datePublished": "2020-06-19T16:13:23+08:00","dateModified": "2020-06-19T16:13:23+08:00","publisher": {
             "@type": "Organization",
             "name": "xxxx"},"author": {
@@ -120,7 +120,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Mysql 常用命令</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://www.hebehan.com" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>HebeHan</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/mysql/"><i class="far fa-folder fa-fw"></i>mysql</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-06-19">2020-06-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 128 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-06-19">2020-06-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 94 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
@@ -132,10 +132,10 @@
     <li><a href="#登录登录">登录{登录}</a></li>
     <li><a href="#数据库相关">数据库相关</a>
       <ul>
-        <li><a href="#创建数据库创建数据库">创建数据库{创建数据库}</a></li>
-        <li><a href="#显示现有数据库显示现有数据库">显示现有数据库{显示现有数据库}</a></li>
-        <li><a href="#使用某个数据库使用某个数据库">使用某个数据库{使用某个数据库}</a></li>
-        <li><a href="#删除某个数据库删除某个数据库">删除某个数据库{删除某个数据库}</a></li>
+        <li><a href="#创建数据库">创建数据库</a></li>
+        <li><a href="#显示现有数据库">显示现有数据库</a></li>
+        <li><a href="#使用某个数据库">使用某个数据库</a></li>
+        <li><a href="#删除某个数据库">删除某个数据库</a></li>
       </ul>
     </li>
   </ul>
@@ -156,7 +156,7 @@ mysql -u root -p回车后输入密码
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="数据库相关">数据库相关</h2>
-<h3 id="创建数据库创建数据库">创建数据库{创建数据库}</h3>
+<h3 id="创建数据库">创建数据库</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -165,7 +165,7 @@ mysql -u root -p回车后输入密码
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">create database 数据库名称;
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="显示现有数据库显示现有数据库">显示现有数据库{显示现有数据库}</h3>
+</div><h3 id="显示现有数据库">显示现有数据库</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -174,7 +174,7 @@ mysql -u root -p回车后输入密码
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">show databases;
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="使用某个数据库使用某个数据库">使用某个数据库{使用某个数据库}</h3>
+</div><h3 id="使用某个数据库">使用某个数据库</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -183,7 +183,7 @@ mysql -u root -p回车后输入密码
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">use 数据库名称;
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="删除某个数据库删除某个数据库">删除某个数据库{删除某个数据库}</h3>
+</div><h3 id="删除某个数据库">删除某个数据库</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
