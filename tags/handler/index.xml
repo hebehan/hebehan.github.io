@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>handler - 标签 - HebeHan&#39;s Blog</title>
+        <link>http://hebehan.com/tags/handler/</link>
+        <description>handler - 标签 - HebeHan&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 08 Sep 2020 11:05:47 &#43;0800</lastBuildDate><atom:link href="http://hebehan.com/tags/handler/" rel="self" type="application/rss+xml" /><item>
+    <title>Android消息机制</title>
+    <link>http://hebehan.com/android_message/</link>
+    <pubDate>Tue, 08 Sep 2020 11:05:47 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://hebehan.com/android_message/</guid>
+    <description><![CDATA[概述 本质:一个线程开启循环模式持续监听并依次处理其他线程给它发送的消息]]></description>
+</item></channel>
+</rss>
